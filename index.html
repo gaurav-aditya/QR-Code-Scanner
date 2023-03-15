@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>QR Code Scanner</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <form action="#" id="form1">
+        <input type="file" id="file" hidden>
+        <img src="" alt="qr-code">
+        <div class="content">
+          <i class="fas fa-cloud-upload"></i>
+          <p id="ptext">Upload QR Code to Scan</p>
+        </div>
+      </form>
+      <div class="details">
+        <textarea disabled id="textArea"></textarea>
+        <div class="buttons">
+          <button class="close">Close</button>
+          <button class="copy">Copy Text</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="toasts"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+<footer id="footer">
+
+   
+  <div class="container d-md-flex py-4">
+
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Aditya Prakash</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+       
+        Designed by <a href="https://gaurav-aditya.github.io/">echoaditya</a>
+      </div>
+    </div>
+    <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+      <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+      <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+      <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    </div>
+  </div>
+</footer>
+
+</html>
+
